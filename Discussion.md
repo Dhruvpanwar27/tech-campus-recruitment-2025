@@ -1,3 +1,14 @@
+## Other Solution
+
+### Using Python (Line-by-Line Processing)
+
+Reads the log file line by line and writes matching logs to an output file. This method is easy to implement but slower due to Python’s overhead and higher memory usage. It is not ideal for very large files (~1TB).
+
+### Using Bash with `while read` Loop
+
+Uses a simple shell script to read each line and check if it starts with the target date. This method is very slow because it processes the file sequentially and cannot take advantage of efficient text processing tools like grep or awk. It is not recommended for large log files.
+
+
 ## Final Solution
 
 Argument Handling: The date is passed as a command-line argument.
