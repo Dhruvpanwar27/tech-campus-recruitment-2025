@@ -1,13 +1,20 @@
 ## Final Solution
 
 Argument Handling: The date is passed as a command-line argument.
+
 File Streaming (ifstream): Reads the file line by line.
+
 String Matching: Checks if the start of the line matches the target date.
+
 Output Writing (ofstream): Writes matching lines to an output file.
+
 Performance Optimizations
 Single-pass scan (O(n)): Only reads and processes each line once.
+
 No extra memory usage: Uses streaming instead of loading the entire file.
+
 Fast comparison: Uses compare() on the first 10 characters (YYYY-MM-DD).
+
 This ensures the solution is fast, memory-efficient, and scalable for a 1TB log file.
 
 ## Steps to run 
