@@ -20,19 +20,19 @@ This ensures the solution is fast, memory-efficient, and scalable for a 1TB log 
 ## Steps to run 
 
 1. Compile the Code
-Open a terminal in the directory where your extract_logs.cpp file is located and run:
+Open a terminal in the directory where your `extract_logs.cpp` file is located and run:
 
 
-g++ test.cpp -o extract_logs
+`g++ test.cpp -o extract_logs`
 
 
-This will generate an executable named extract_logs.
+This will generate an executable named `extract_logs`.
 
 2. Run the Program
 Execute the compiled program by providing a date as an argument:
 
 
-./extract_logs 2024-12-01
+`./extract_logs 2024-12-01`
 
 
 Output
